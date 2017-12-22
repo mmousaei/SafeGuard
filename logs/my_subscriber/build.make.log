@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target my_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber[0m
+[100%] Built target my_subscriber

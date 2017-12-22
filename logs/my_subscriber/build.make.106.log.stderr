@@ -1,0 +1,12 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:24:55:[m[K [01;31m[Kerror: [m[Kinvalid suffix "UC1" on integer constant
+     cv::Mat close_cut = cv::Mat::zeros(my_img.size(), 16UC1);
+[01;32m[K                                                       ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:25:54:[m[K [01;31m[Kerror: [m[Kinvalid suffix "UC1" on integer constant
+     cv::Mat texture_ = cv::Mat::zeros(my_img.size(), 16UC1);
+[01;32m[K                                                      ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:26:56:[m[K [01;31m[Kerror: [m[Kinvalid suffix "UC1" on integer constant
+     cv::Mat medium_cut = cv::Mat::zeros(my_img.size(), 16UC1);;
+[01;32m[K                                                        ^[m[K
+make[2]: *** [CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/my_subscriber.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,15 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:[m[K In function ‘[01m[Kvoid imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:19:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::convertTo(cv::MatExpr, int, double)[m[K’
+     my_img.convertTo(my_img/2, CV_8U, 0.00390625);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/opencv-3.3.1/opencv2/highgui.hpp:46[m[K,
+                 from [01m[K/opt/ros/kinetic/include/opencv-3.3.1/opencv2/highgui/highgui.hpp:48[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:3[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1/opencv2/core/mat.hpp:1213:10:[m[K [01;36m[Knote: [m[Kcandidate: void cv::Mat::convertTo(cv::OutputArray, int, double, double) const
+     void convertTo( OutputArray m, int rtype, double alpha=1, double beta=0 ) const;
+[01;32m[K          ^[m[K
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1/opencv2/core/mat.hpp:1213:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::MatExpr[m[K’ to ‘[01m[Kcv::OutputArray {aka const cv::_OutputArray&}[m[K’
+make[2]: *** [CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/my_subscriber.dir/all] Error 2
+make: *** [all] Error 2

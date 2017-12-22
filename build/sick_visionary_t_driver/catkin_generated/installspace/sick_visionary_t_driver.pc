@@ -1,0 +1,8 @@
+prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install
+
+Name: sick_visionary_t_driver
+Description: Description of sick_visionary_t_driver
+Version: 0.0.2
+Cflags: -I/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install/include
+Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install/lib 
+Requires: roscpp

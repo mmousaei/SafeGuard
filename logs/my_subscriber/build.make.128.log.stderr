@@ -1,0 +1,10 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:[m[K In function ‘[01m[Kvoid imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:49:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmeduim_cut[m[K’ was not declared in this scope
+           meduim_cut.at<uint16_t>(cv::Point(j, i)) = 42000;
+[01;32m[K           ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp:49:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+           meduim_cut.at<uint16_t>(cv::Point(j, i)) = 42000;
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/my_subscriber.dir/all] Error 2
+make: *** [all] Error 2
