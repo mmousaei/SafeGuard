@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig"
 export PWD="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/catkin_tools_prebuild"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/catkin_tools_prebuild:/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber:/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud:/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/sick_visionary_t_driver:/opt/ros/kinetic/share"

@@ -1,0 +1,60 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:54:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoPCL(const sensor_msgs::PointCloud2_<std::allocator<void> >&, pcl::PointCloud<pcl::PointXYZ>&)[m[K’
+   pcl_conversions::toPCL(*input, *cloud);
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4:0[m[K:
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:86:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const ros::Time&, uint64_t&)
+   void toPCL(const ros::Time &stamp, pcl::uint64_t &pcl_stamp)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:86:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst ros::Time&[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:100:17:[m[K [01;36m[Knote: [m[Kcandidate: uint64_t pcl_conversions::toPCL(const ros::Time&)
+   pcl::uint64_t toPCL(const ros::Time &stamp)
+[01;32m[K                 ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:100:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:118:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const Header&, pcl::PCLHeader&)
+   void toPCL(const std_msgs::Header &header, pcl::PCLHeader &pcl_header)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:118:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst Header& {aka const std_msgs::Header_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:134:18:[m[K [01;36m[Knote: [m[Kcandidate: pcl::PCLHeader pcl_conversions::toPCL(const Header&)
+   pcl::PCLHeader toPCL(const std_msgs::Header &header)
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:134:18:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:180:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const Image&, pcl::PCLImage&)
+   void toPCL(const sensor_msgs::Image &image, pcl::PCLImage &pcl_image)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:180:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst Image& {aka const sensor_msgs::Image_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:216:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const PointField&, pcl::PCLPointField&)
+   void toPCL(const sensor_msgs::PointField &pf, pcl::PCLPointField &pcl_pf)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:216:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst PointField& {aka const sensor_msgs::PointField_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:225:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const std::vector<sensor_msgs::PointField_<std::allocator<void> > >&, std::vector<pcl::PCLPointField>&)
+   void toPCL(const std::vector<sensor_msgs::PointField> &pfs, std::vector<pcl::PCLPointField> &pcl_pfs)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:225:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::vector<sensor_msgs::PointField_<std::allocator<void> > >&[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:278:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const PointCloud2&, pcl::PCLPointCloud2&)
+   void toPCL(const sensor_msgs::PointCloud2 &pc2, pcl::PCLPointCloud2 &pcl_pc2)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:278:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’ to ‘[01m[Kpcl::PCLPointCloud2&[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:308:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const PointIndices&, pcl::PointIndices&)
+   void toPCL(const pcl_msgs::PointIndices &pi, pcl::PointIndices &pcl_pi)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:308:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst PointIndices& {aka const pcl_msgs::PointIndices_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:338:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const ModelCoefficients&, pcl::ModelCoefficients&)
+   void toPCL(const pcl_msgs::ModelCoefficients &mc, pcl::ModelCoefficients &pcl_mc)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:338:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst ModelCoefficients& {aka const pcl_msgs::ModelCoefficients_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:388:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const Vertices&, pcl::Vertices&)
+   void toPCL(const pcl_msgs::Vertices &vert, pcl::Vertices &pcl_vert)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:388:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst Vertices& {aka const pcl_msgs::Vertices_<std::allocator<void> >&}[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:394:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const std::vector<pcl_msgs::Vertices_<std::allocator<void> > >&, std::vector<pcl::Vertices>&)
+   void toPCL(const std::vector<pcl_msgs::Vertices> &verts, std::vector<pcl::Vertices> &pcl_verts)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:394:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::vector<pcl_msgs::Vertices_<std::allocator<void> > >&[m[K’
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:440:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl_conversions::toPCL(const PolygonMesh&, pcl::PolygonMesh&)
+   void toPCL(const pcl_msgs::PolygonMesh &mesh, pcl::PolygonMesh &pcl_mesh)
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:440:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst sensor_msgs::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst PolygonMesh& {aka const pcl_msgs::PolygonMesh_<std::allocator<void> >&}[m[K’
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

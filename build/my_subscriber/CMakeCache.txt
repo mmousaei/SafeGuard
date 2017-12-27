@@ -301,9 +301,6 @@ my_subscriber_BINARY_DIR:STATIC=/home/mohammadreza/Documents/CMU-Project/RED/cat
 //Value Computed by CMake
 my_subscriber_SOURCE_DIR:STATIC=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber
 
-//The directory containing a CMake configuration file for opencv.
-opencv_DIR:PATH=opencv_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 

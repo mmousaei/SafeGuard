@@ -1,0 +1,31 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:143:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoPCLPointCloud2(pcl::PointCloud<pcl::PointXYZ>::Ptr&, pcl::PCLPointCloud2&)[m[K’
+   pcl::toPCLPointCloud2(cloud_cylinder, *cloud_temp);
+[01;32m[K                                                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:44:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:239:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class PointT> void pcl::toPCLPointCloud2(const pcl::PointCloud<PointT>&, pcl::PCLPointCloud2&)
+   toPCLPointCloud2 (const pcl::PointCloud<PointT>& cloud, pcl::PCLPointCloud2& msg)
+[01;32m[K   ^[m[K
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:239:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:143:52:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr {aka boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >}[m[K’ is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
+   pcl::toPCLPointCloud2(cloud_cylinder, *cloud_temp);
+[01;32m[K                                                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:44:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:277:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class CloudT> void pcl::toPCLPointCloud2(const CloudT&, pcl::PCLImage&)
+   toPCLPointCloud2 (const CloudT& cloud, pcl::PCLImage& msg)
+[01;32m[K   ^[m[K
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:277:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:143:52:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K* cloud_temp[m[K’ (type ‘[01m[Kpcl::PCLPointCloud2[m[K’) to type ‘[01m[Kpcl::PCLImage&[m[K’
+   pcl::toPCLPointCloud2(cloud_cylinder, *cloud_temp);
+[01;32m[K                                                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:44:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:310:3:[m[K [01;36m[Knote: [m[Kcandidate: void pcl::toPCLPointCloud2(const pcl::PCLPointCloud2&, pcl::PCLImage&)
+   toPCLPointCloud2 (const pcl::PCLPointCloud2& cloud, pcl::PCLImage& msg)
+[01;32m[K   ^[m[K
+[01m[K/usr/include/pcl-1.7/pcl/conversions.h:310:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr {aka boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >}[m[K’ to ‘[01m[Kconst pcl::PCLPointCloud2&[m[K’
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

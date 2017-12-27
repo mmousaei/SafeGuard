@@ -1,0 +1,18 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:33:16:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+   pub.publish (output);
+[01;32m[K                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:33:16:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/boost/iostreams/close.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/iostreams/device/mapped_file.hpp:20[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/boost.h:77[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/file_io.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:4[m[K:
+[01m[K/usr/include/boost/iostreams/categories.hpp:28:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::iostreams::output[m[K’
+ struct output : virtual any_tag { };
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/pcl_subscriber.dir/pcl_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pcl_subscriber.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,113 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[KPassThrough[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::PassThrough<PointT> pass;
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPointT[m[K’ was not declared in this scope
+   pcl::PassThrough<PointT> pass;
+[01;32m[K                    ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:18:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpass[m[K’ was not declared in this scope
+   pcl::PassThrough<PointT> pass;
+[01;32m[K                            ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[KNormalEstimation[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::NormalEstimation<PointT, pcl::Normal> ne;
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:19:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pcl::NormalEstimation<PointT, pcl::Normal> ne;
+[01;32m[K                                            ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:19:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kne[m[K’ was not declared in this scope
+   pcl::NormalEstimation<PointT, pcl::Normal> ne;
+[01;32m[K                                              ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:20:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSACSegmentationFromNormals[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::SACSegmentationFromNormals<PointT, pcl::Normal> seg; 
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:20:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pcl::SACSegmentationFromNormals<PointT, pcl::Normal> seg; 
+[01;32m[K                                                      ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:20:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kseg[m[K’ was not declared in this scope
+   pcl::SACSegmentationFromNormals<PointT, pcl::Normal> seg; 
+[01;32m[K                                                        ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:22:3:[m[K [01;31m[Kerror: [m[K‘[01m[KExtractIndices[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::ExtractIndices<PointT> extract;
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kextract[m[K’ was not declared in this scope
+   pcl::ExtractIndices<PointT> extract;
+[01;32m[K                               ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[KExtractIndices[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::ExtractIndices<pcl::Normal> extract_normals;
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:23:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pcl::ExtractIndices<pcl::Normal> extract_normals;
+[01;32m[K                                  ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:23:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kextract_normals[m[K’ was not declared in this scope
+   pcl::ExtractIndices<pcl::Normal> extract_normals;
+[01;32m[K                                    ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:24:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl::search[m[K’ has not been declared
+   pcl::search::KdTree<PointT>::Ptr tree (new pcl::search::KdTree<PointT> ());
+[01;32m[K        ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:24:30:[m[K [01;31m[Kerror: [m[K‘[01m[K::Ptr[m[K’ has not been declared
+   pcl::search::KdTree<PointT>::Ptr tree (new pcl::search::KdTree<PointT> ());
+[01;32m[K                              ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:26:25:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class PointT> class pcl::PointCloud[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_filtered (new pcl::PointCloud<PointT>);
+[01;32m[K                         ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:26:25:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KPointT[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:26:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_filtered[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_filtered (new pcl::PointCloud<PointT>);
+[01;32m[K                                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:28:25:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class PointT> class pcl::PointCloud[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_filtered2 (new pcl::PointCloud<PointT>);
+[01;32m[K                         ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:28:25:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KPointT[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:28:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_filtered2[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_filtered2 (new pcl::PointCloud<PointT>);
+[01;32m[K                                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct pcl::PCLPointCloud2[m[K’ has no member named ‘[01m[Kpoints[m[K’
+   std::cerr << "PointCloud has: " << cloud->points.size () << " data points." << std::endl;
+[01;32m[K                                             ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:55:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kpcl::PCLPointCloud2[m[K’)
+   pass.filter (*cloud_filtered);
+[01;32m[K                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:56:68:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PCLPointCloud2[m[K’
+   std::cerr << "PointCloud after filtering has: " << cloud_filtered->points.size () << " data points." << std::endl;
+[01;32m[K                                                                    ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:59:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree[m[K’ was not declared in this scope
+   ne.setSearchMethod (tree);
+[01;32m[K                       ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:66:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSACMODEL_NORMAL_PLANE[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   seg.setModelType (pcl::SACMODEL_NORMAL_PLANE);
+[01;32m[K                     ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:68:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSAC_RANSAC[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   seg.setMethodType (pcl::SAC_RANSAC);
+[01;32m[K                      ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:83:25:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class PointT> class pcl::PointCloud[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_plane (new pcl::PointCloud<PointT> ());
+[01;32m[K                         ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:83:25:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KPointT[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:83:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_plane[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_plane (new pcl::PointCloud<PointT> ());
+[01;32m[K                                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:84:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_plane[m[K’ was not declared in this scope
+   extract.filter (*cloud_plane);
+[01;32m[K                    ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:90:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_filtered2[m[K’ was not declared in this scope
+   extract.filter (*cloud_filtered2);
+[01;32m[K                    ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:98:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSACMODEL_CYLINDER[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   seg.setModelType (pcl::SACMODEL_CYLINDER);
+[01;32m[K                     ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:99:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSAC_RANSAC[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   seg.setMethodType (pcl::SAC_RANSAC);
+[01;32m[K                      ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:115:25:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class PointT> class pcl::PointCloud[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_cylinder (new pcl::PointCloud<PointT> ());
+[01;32m[K                         ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:115:25:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KPointT[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:115:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_cylinder[m[K’
+   pcl::PointCloud<PointT>::Ptr cloud_cylinder (new pcl::PointCloud<PointT> ());
+[01;32m[K                                ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:116:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_cylinder[m[K’ was not declared in this scope
+   extract.filter (*cloud_cylinder);
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

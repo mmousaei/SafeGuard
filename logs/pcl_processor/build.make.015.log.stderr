@@ -1,0 +1,13 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:21:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
+[01;32m[K                                     ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:21:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksor[m[K’ was not declared in this scope
+   pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
+[01;32m[K                                       ^[m[K
+make[2]: *** [CMakeFiles/pcl_subscriber.dir/pcl_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pcl_subscriber.dir/all] Error 2
+make: *** [all] Error 2
