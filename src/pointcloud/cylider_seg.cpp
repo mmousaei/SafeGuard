@@ -70,7 +70,7 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   pass.setInputCloud (cloud);
   pass.setFilterFieldName ("z");
   // pass.setFilterLimits (.9, 1.5);
-  pass.setFilterLimits (1, 3.5);
+  pass.setFilterLimits (1.9, 2);
   pass.filter (*cloud_filtered);
   std::cerr << "PointCloud after filtering has: " << cloud_filtered->points.size () << " data points." << std::endl;
   // Estimate point normals
@@ -115,10 +115,10 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   seg.setOptimizeCoefficients (true);
   seg.setModelType (pcl::SACMODEL_CYLINDER);
   seg.setMethodType (pcl::SAC_RANSAC);
-  seg.setNormalDistanceWeight (0.1);
+  seg.setNormalDistanceWeight (0.2);
   seg.setMaxIterations (10000);
-  seg.setDistanceThreshold (0.18);
-  seg.setRadiusLimits (0, 0.9);
+  seg.setDistanceThreshold (0.2);
+  seg.setRadiusLimits (0.3, 0.5);
   seg.setInputCloud (cloud_filtered);
   seg.setInputNormals (cloud_normals);
 
@@ -162,25 +162,49 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   sensor_msgs::PointCloud2 output;
   // pcl::PCLPointCloud2* cloud_temp2 = new pcl::PCLPointCloud2; 
   // pcl::PCLPointCloud2ConstPtr cloudPtr(cloud_temp2);
-  pcl::toPCLPointCloud2(*cloud_obstacles, *cloud_temp);
+  pcl::toPCLPointCloud2(*cloud_cylinder, *cloud_temp);
   pcl_conversions::fromPCL(*cloud_temp, output);
   // pcl::toROSMsg(output, cloud_cylinder);
   // Publish the data
   pub.publish (output);
 
-  int radius = .18;
-  int dist;
+  double radius = .25;
+  double dist;
   bool notSafe = false;
+  double sum = 0;
+  double xcenter = 0;
+  double ycenter = 0;
+  // for(int i = 0; i < cloud_cylinder->points.size(); i++)
+  // {
+  //   xcenter += cloud_cylinder->points[i].x;
+  //   ycenter += cloud_cylinder->points[i].y;
+  // }
+
+  // xcenter /= cloud_cylinder->points.size();
+  // ycenter /= cloud_cylinder->points.size();
+
+  xcenter = 0.1;
+  ycenter = -0.19;
+
+
+  std::cerr << "The center of the cylinder is located at the point with x = " << xcenter << " and y = " << ycenter <<std::endl;
+
+
   for(int i = 0; i < cloud_obstacles->points.size(); i++)
   {
-     dist = (cloud_obstacles->points[i].x*cloud_obstacles->points[i].x) + (cloud_obstacles->points[i].y*cloud_obstacles->points[i].y);
+    dist = ( (cloud_obstacles->points[i].x - xcenter) * (cloud_obstacles->points[i].x - xcenter) ) + ( (cloud_obstacles->points[i].x - xcenter) * (cloud_obstacles->points[i].x - xcenter) );
+
+    sum += dist;
     
     if ( dist < radius*radius )
     {
-       notSafe = true;
+      notSafe = true;
+      // std::cerr << "The distance squared of the point to the origin is " << dist << " meters and the radius squared is " << radius*radius <<std::endl;
       // distance.data = dist;
     }      
   }
+  sum /= cloud_obstacles->points.size();
+  std::cerr << "The average of points radius squared is : " << sum <<std::endl;
   std::cerr << "Is it not safe to continue going forward : " << notSafe <<std::endl;
   std::cerr << "There are "<< cloud_obstacles->points.size() << " points in the obstacle segment" <<std::endl;
 
