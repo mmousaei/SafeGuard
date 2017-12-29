@@ -1,0 +1,5 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:22:27:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/int8.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,109 @@
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:177:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   std_msgs::int8 temp1 = 0
+[01;32m[K   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:178:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   for(int i = 0; i < cloud_cylinder->points.size(); i++)
+[01;32m[K                  ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:203:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp1[m[K’ was not declared in this scope
+       temp1 = 1;
+[01;32m[K       ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:213:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::Publisher[m[K’ has no member named ‘[01m[Kdata[m[K’
+   decision.data = temp1;
+[01;32m[K            ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:213:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp1[m[K’ was not declared in this scope
+   decision.data = temp1;
+[01;32m[K                   ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:229:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   decision = nh.advertise<std_msgs::int8> ("decision", 1);
+[01;32m[K                           ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:229:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:229:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise(const char [9], int)[m[K’
+   decision = nh.advertise<std_msgs::int8> ("decision", 1);
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:229:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   decision = nh.advertise<std_msgs::int8> ("decision", 1);
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher advertise(const std::string& topic, uint32_t queue_size,
+[01;32m[K             ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:229:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   decision = nh.advertise<std_msgs::int8> ("decision", 1);
+[01;32m[K                                                         ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:230:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   distance = nh.advertise<std_msgs::int8> ("distance", 1);
+[01;32m[K                           ^[m[K
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:230:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:230:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise(const char [9], int)[m[K’
+   distance = nh.advertise<std_msgs::int8> ("distance", 1);
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:230:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   distance = nh.advertise<std_msgs::int8> ("distance", 1);
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher advertise(const std::string& topic, uint32_t queue_size,
+[01;32m[K             ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:230:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   distance = nh.advertise<std_msgs::int8> ("distance", 1);
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = ros::Publisher][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:255:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = ros::Publisher][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = ros::Publisher][m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:214:23:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:126:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class ros::Publisher[m[K’ has no member named ‘[01m[K__getMD5Sum[m[K’
+     return m.__getMD5Sum().c_str();
+[01;32m[K                                  ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = ros::Publisher][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:264:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = ros::Publisher][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = ros::Publisher][m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:214:23:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:143:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class ros::Publisher[m[K’ has no member named ‘[01m[K__getDataType[m[K’
+     return m.__getDataType().c_str();
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:1[m[K:
+/opt/ros/kinetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic uint32_t ros::serialization::Serializer<T>::serializedLength(typename boost::call_traits<T>::param_type) [with T = ros::Publisher; uint32_t = unsigned int; typename boost::call_traits<T>::param_type = const ros::Publisher&][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:172:41:[m[K   required from ‘[01m[Kuint32_t ros::serialization::serializationLength(const T&) [with T = ros::Publisher; uint32_t = unsigned int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:848:37:[m[K   required from ‘[01m[Kros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = ros::Publisher][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:118:26:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = ros::Publisher][m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:214:23:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:144:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class ros::Publisher[m[K’ has no member named ‘[01m[KserializationLength[m[K’
+     return t.serializationLength();
+[01;32m[K                                  ^[m[K
+/opt/ros/kinetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic void ros::serialization::Serializer<T>::write(Stream&, typename boost::call_traits<T>::param_type) [with Stream = ros::serialization::OStream; T = ros::Publisher; typename boost::call_traits<T>::param_type = const ros::Publisher&][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:154:23:[m[K   required from ‘[01m[Kvoid ros::serialization::serialize(Stream&, const T&) [with T = ros::Publisher; Stream = ros::serialization::OStream][m[K’
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:855:12:[m[K   required from ‘[01m[Kros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = ros::Publisher][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:118:26:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = ros::Publisher][m[K’
+[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:214:23:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class ros::Publisher[m[K’ has no member named ‘[01m[Kserialize[m[K’
+     t.serialize(stream.getData(), 0);
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

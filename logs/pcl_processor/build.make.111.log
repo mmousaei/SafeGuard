@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target cylider_seg[0m
-[ 50%] Built target pcl_subscriber
-[ 75%] [32mBuilding CXX object CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/lib/pcl_processor/cylider_seg[0m
-[100%] Built target cylider_seg

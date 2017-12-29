@@ -1,0 +1,7 @@
+[ 20%] [34m[1mGenerating include/rqt_example_cpp/moc_my_plugin.cxx[0m
+[ 40%] [34m[1mGenerating ui_my_plugin.h[0m
+[35m[1mScanning dependencies of target rqt_example_cpp[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rqt_example_cpp.dir/src/rqt_example_cpp/my_plugin.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rqt_example_cpp.dir/include/rqt_example_cpp/moc_my_plugin.cxx.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_example_cpp/lib/librqt_example_cpp.so[0m
+[100%] Built target rqt_example_cpp

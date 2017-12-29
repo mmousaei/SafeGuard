@@ -1,0 +1,8 @@
+prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install
+
+Name: rqt_gui_cpp
+Description: Description of rqt_gui_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install/lib 
+Requires: 

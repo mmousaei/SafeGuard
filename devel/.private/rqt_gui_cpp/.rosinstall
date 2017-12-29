@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_gui_cpp/setup.sh

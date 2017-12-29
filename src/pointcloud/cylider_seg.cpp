@@ -19,6 +19,7 @@
 #include <pcl/visualization/cloud_viewer.h>
 #include "std_msgs/Byte.h"
 #include "std_msgs/Bool.h"
+#include "std_msgs/Int8.h"
 
 typedef pcl::PointXYZ PointT;
 
@@ -70,7 +71,7 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   pass.setInputCloud (cloud);
   pass.setFilterFieldName ("z");
   // pass.setFilterLimits (.9, 1.5);
-  pass.setFilterLimits (1.9, 2);
+  pass.setFilterLimits (0.9, 1.15);
   pass.filter (*cloud_filtered);
   std::cerr << "PointCloud after filtering has: " << cloud_filtered->points.size () << " data points." << std::endl;
   // Estimate point normals
@@ -115,9 +116,9 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   seg.setOptimizeCoefficients (true);
   seg.setModelType (pcl::SACMODEL_CYLINDER);
   seg.setMethodType (pcl::SAC_RANSAC);
-  seg.setNormalDistanceWeight (0.2);
+  seg.setNormalDistanceWeight (0.3);
   seg.setMaxIterations (10000);
-  seg.setDistanceThreshold (0.2);
+  seg.setDistanceThreshold (0.3);
   seg.setRadiusLimits (0.3, 0.5);
   seg.setInputCloud (cloud_filtered);
   seg.setInputNormals (cloud_normals);
@@ -148,6 +149,7 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   }
 
 
+
   // Remove the cylinder inliers, extract the rest
   extract.setNegative (true);
   extract.filter (*cloud_obstacles);
@@ -158,11 +160,22 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   // Convert to ROS data type
   sensor_msgs::PointCloud2 output;
   // pcl::PCLPointCloud2* cloud_temp2 = new pcl::PCLPointCloud2; 
   // pcl::PCLPointCloud2ConstPtr cloudPtr(cloud_temp2);
-  pcl::toPCLPointCloud2(*cloud_cylinder, *cloud_temp);
+  pcl::toPCLPointCloud2(*cloud_cylinder , *cloud_temp);
   pcl_conversions::fromPCL(*cloud_temp, output);
   // pcl::toROSMsg(output, cloud_cylinder);
   // Publish the data
@@ -174,17 +187,19 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   double sum = 0;
   double xcenter = 0;
   double ycenter = 0;
-  // for(int i = 0; i < cloud_cylinder->points.size(); i++)
-  // {
-  //   xcenter += cloud_cylinder->points[i].x;
-  //   ycenter += cloud_cylinder->points[i].y;
-  // }
+  std_msgs::Int8 temp1;
+  temp1.data = 0;
+  for(int i = 0; i < cloud_cylinder->points.size(); i++)
+  {
+    xcenter += cloud_cylinder->points[i].x;
+    ycenter += cloud_cylinder->points[i].y;
+  }
 
-  // xcenter /= cloud_cylinder->points.size();
-  // ycenter /= cloud_cylinder->points.size();
+  xcenter /= cloud_cylinder->points.size();
+  ycenter /= cloud_cylinder->points.size();
 
-  xcenter = 0.1;
-  ycenter = -0.19;
+  // xcenter = 0.1;
+  // ycenter = -0.19;
 
 
   std::cerr << "The center of the cylinder is located at the point with x = " << xcenter << " and y = " << ycenter <<std::endl;
@@ -199,6 +214,7 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
     if ( dist < radius*radius )
     {
       notSafe = true;
+      temp1.data = 1;
       // std::cerr << "The distance squared of the point to the origin is " << dist << " meters and the radius squared is " << radius*radius <<std::endl;
       // distance.data = dist;
     }      
@@ -208,8 +224,8 @@ void cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
   std::cerr << "Is it not safe to continue going forward : " << notSafe <<std::endl;
   std::cerr << "There are "<< cloud_obstacles->points.size() << " points in the obstacle segment" <<std::endl;
 
-  // decision = notSafe;
-  // pub.publish(decision);
+  //decision = temp1;
+  decision.publish(temp1);
   // pub.publish(distance);
 }
 
@@ -224,8 +240,8 @@ int main (int argc, char** argv)
 
   // Create a ROS publisher for the output point cloud
   pub = nh.advertise<sensor_msgs::PointCloud2> ("output", 1);
-  decision = nh.advertise<std_msgs::Bool> ("decision", 1);
-  distance = nh.advertise<std_msgs::Byte> ("distance", 1);
+  decision = nh.advertise<std_msgs::Int8> ("decision", 1);
+  distance = nh.advertise<std_msgs::Int8> ("distance", 1);
 
   // Spin
   ros::spin ();

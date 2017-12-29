@@ -1,0 +1,8 @@
+prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_safeguard
+
+Name: rqt_safeguard
+Description: Description of rqt_safeguard
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_safeguard/lib 
+Requires: 
