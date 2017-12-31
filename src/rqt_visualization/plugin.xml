@@ -1,0 +1,12 @@
+<library path="lib/librqt_myplugin">
+  <class name="rqt_myplugin/MyPlugin" type="rqt_myplugin::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Test a simple rqt plugin.
+    </description>
+    <qtgui>
+      <label>Test plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Lock and load...</statustip>
+    </qtgui>
+  </class>
+</library>
