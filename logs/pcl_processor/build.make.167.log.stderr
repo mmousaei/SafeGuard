@@ -1,0 +1,7 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:[m[K In member function ‘[01m[Kpointcloud_process::angle_3d pointcloud_process::estimate_angular_offset(pcl::ModelCoefficients&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:68:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+     angle.pitch = (cos_temp)*180.0/M_PI);
+[01;32m[K                                        ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/pointcloud_process.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

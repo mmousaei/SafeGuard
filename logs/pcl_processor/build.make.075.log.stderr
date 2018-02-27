@@ -1,0 +1,20 @@
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:5:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:37:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kpointcloud_process::[m[K’ on member ‘[01m[Kpointcloud_process[m[K’ [-fpermissive]
+     pointcloud_process::pointcloud_process();
+[01;32m[K     ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:15:25:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kpcl::PointCloud<pcl::PointXYZ> pointcloud_process::convert_msgs_to_pcl(const PointCloud2ConstPtr&)[m[K’ does not match any in class ‘[01m[Kpointcloud_process[m[K’
+ pcl::PointCloud<PointT> pointcloud_process::convert_msgs_to_pcl(const sensor_msgs::PointCloud2ConstPtr &input) {
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:5:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:38:34:[m[K [01;31m[Kerror: [m[Kcandidate is: pcl::PointCloud<pcl::PointXYZ>::Ptr pointcloud_process::convert_msgs_to_pcl(const PointCloud2ConstPtr&)
+     pcl::PointCloud<PointT>::Ptr convert_msgs_to_pcl(const sensor_msgs::PointCloud2ConstPtr& input);
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:24:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:37:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kpointcloud_process::[m[K’ on member ‘[01m[Kpointcloud_process[m[K’ [-fpermissive]
+     pointcloud_process::pointcloud_process();
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/cylider_seg.dir/pointcloud_process.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

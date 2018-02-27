@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 54, in <module>
+    spec = load_msg_from_file(msg_context, msg_file, full_type_name)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 289, in load_msg_from_file
+    raise InvalidMsgSpec('%s: %s'%(file_path, e))
+genmsg.base.InvalidMsgSpec: /home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/msg/safeguard.msg: sensor_msgs::TimeReference is not a legal message field type
+make[2]: *** [CMakeFiles/_pcl_processor_generate_messages_check_deps_safeguard] Error 1
+make[1]: *** [CMakeFiles/_pcl_processor_generate_messages_check_deps_safeguard.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

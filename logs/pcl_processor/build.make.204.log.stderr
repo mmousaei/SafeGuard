@@ -1,0 +1,10 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid time_callback(const TimeReferenceConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:39:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_processor::safeguard {aka struct pcl_processor::safeguard_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktime[m[K’
+     output_topic.time.nsec = time->time_ref.nsec;
+[01;32m[K                  ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:40:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_processor::safeguard {aka struct pcl_processor::safeguard_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktime[m[K’
+     output_topic.time.sec = time->time_ref.sec;
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

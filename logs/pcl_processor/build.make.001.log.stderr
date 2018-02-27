@@ -1,6 +1,0 @@
-In file included from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:4:0[m[K:
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:44:29:[m[K [01;31m[Kfatal error: [m[Kpcl/conversions.h: No such file or directory
-compilation terminated.
-make[2]: *** [CMakeFiles/pcl_subscriber.dir/pcl_subscriber.cpp.o] Error 1
-make[1]: *** [CMakeFiles/pcl_subscriber.dir/all] Error 2
-make: *** [all] Error 2

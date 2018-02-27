@@ -1,9 +1,0 @@
--I/usr/include/qt4
--I/usr/include/qt4/QtGui
--I/usr/include/qt4/QtCore
--D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
--DQT_GUI_LIB
--DQT_CORE_LIB
--o
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_example_cpp/include/rqt_example_cpp/moc_my_plugin.cxx
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/rqt_mypkg/include/rqt_example_cpp/my_plugin.h

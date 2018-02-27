@@ -1,0 +1,33 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target safeguard_main[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _pcl_processor_generate_messages_check_deps_safeguard
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  8%] [32mBuilding CXX object CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o[0m
+[ 25%] Built target pcl_processor_generate_messages_py
+[ 33%] Built target pcl_processor_generate_messages_nodejs
+[ 50%] Built target pcl_subscriber
+[ 58%] Built target pcl_processor_generate_messages_lisp
+[ 66%] Built target pcl_processor_generate_messages_cpp
+[ 83%] Built target pcl_processor_generate_messages_eus
+[ 83%] Built target pcl_processor_generate_messages
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:79:139:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+     std::cerr << "The filtered cloud size is " << cloud_filtered->size() << "and the normals size is " << cloud_normals->size()<<std::endl:
+[01;32m[K                                                                                                                                           ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:327:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+CMakeFiles/safeguard_main.dir/build.make:62: recipe for target 'CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o' failed
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+CMakeFiles/Makefile2:1573: recipe for target 'CMakeFiles/safeguard_main.dir/all' failed
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

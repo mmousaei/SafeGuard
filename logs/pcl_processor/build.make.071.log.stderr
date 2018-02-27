@@ -1,0 +1,13 @@
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib/pcl_processor/pcl_processor] Error 1
+make[1]: *** [CMakeFiles/pcl_processor.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o: In function `cloud_cb(boost::shared_ptr<sensor_msgs::PointCloud2_<std::allocator<void> > const> const&)':
+cylider_seg.cpp:(.text+0x216): undefined reference to `pcl_processor::pcl_processor()'
+cylider_seg.cpp:(.text+0x28b): undefined reference to `pcl_processor::convert_to_pcl(boost::shared_ptr<sensor_msgs::PointCloud2_<std::allocator<void> > const> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib/pcl_processor/cylider_seg] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
+make: *** [all] Error 2

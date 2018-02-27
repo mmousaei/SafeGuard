@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp
+Change Dir: /home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d258/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d258.dir/build.make CMakeFiles/cmTC_6d258.dir/build
-make[1]: Entering directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d258.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_6d258.dir/CheckSymbolExists.c.o   -c /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_6d258
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d258.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6d258.dir/CheckSymbolExists.c.o  -o cmTC_6d258 -rdynamic 
-CMakeFiles/cmTC_6d258.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_7d187/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d187.dir/build.make CMakeFiles/cmTC_7d187.dir/build
+make[1]: Entering directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d187.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7d187.dir/CheckSymbolExists.c.o   -c /home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7d187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d187.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7d187.dir/CheckSymbolExists.c.o  -o cmTC_7d187 -rdynamic 
+CMakeFiles/cmTC_7d187.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6d258.dir/build.make:97: recipe for target 'cmTC_6d258' failed
-make[1]: *** [cmTC_6d258] Error 1
-make[1]: Leaving directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6d258/fast' failed
-make: *** [cmTC_6d258/fast] Error 2
+CMakeFiles/cmTC_7d187.dir/build.make:97: recipe for target 'cmTC_7d187' failed
+make[1]: *** [cmTC_7d187] Error 1
+make[1]: Leaving directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d187/fast' failed
+make: *** [cmTC_7d187/fast] Error 2
 
-File /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp
+Change Dir: /home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d3cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d3cd.dir/build.make CMakeFiles/cmTC_3d3cd.dir/build
-make[1]: Entering directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d3cd.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d3cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d3cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3cd.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3d3cd.dir/CheckFunctionExists.c.o  -o cmTC_3d3cd -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_1dcf4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1dcf4.dir/build.make CMakeFiles/cmTC_1dcf4.dir/build
+make[1]: Entering directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dcf4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1dcf4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1dcf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dcf4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1dcf4.dir/CheckFunctionExists.c.o  -o cmTC_1dcf4 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3d3cd.dir/build.make:97: recipe for target 'cmTC_3d3cd' failed
-make[1]: *** [cmTC_3d3cd] Error 1
-make[1]: Leaving directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3d3cd/fast' failed
-make: *** [cmTC_3d3cd/fast] Error 2
+CMakeFiles/cmTC_1dcf4.dir/build.make:97: recipe for target 'cmTC_1dcf4' failed
+make[1]: *** [cmTC_1dcf4] Error 1
+make[1]: Leaving directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/rqt_safeguard/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1dcf4/fast' failed
+make: *** [cmTC_1dcf4/fast] Error 2
 
 

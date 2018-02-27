@@ -1,8 +1,0 @@
-prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_gui_cpp
-
-Name: rqt_gui_cpp
-Description: Description of rqt_gui_cpp
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_gui_cpp/lib 
-Requires: 

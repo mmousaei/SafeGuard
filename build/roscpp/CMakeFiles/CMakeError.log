@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp
+Change Dir: /home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4440c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4440c.dir/build.make CMakeFiles/cmTC_4440c.dir/build
-make[1]: Entering directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4440c.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4440c.dir/CheckSymbolExists.c.o   -c /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4440c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4440c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4440c.dir/CheckSymbolExists.c.o  -o cmTC_4440c -rdynamic 
-CMakeFiles/cmTC_4440c.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_b0609/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0609.dir/build.make CMakeFiles/cmTC_b0609.dir/build
+make[1]: Entering directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0609.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b0609.dir/CheckSymbolExists.c.o   -c /home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b0609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0609.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b0609.dir/CheckSymbolExists.c.o  -o cmTC_b0609 -rdynamic 
+CMakeFiles/cmTC_b0609.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4440c.dir/build.make:97: recipe for target 'cmTC_4440c' failed
-make[1]: *** [cmTC_4440c] Error 1
-make[1]: Leaving directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4440c/fast' failed
-make: *** [cmTC_4440c/fast] Error 2
+CMakeFiles/cmTC_b0609.dir/build.make:97: recipe for target 'cmTC_b0609' failed
+make[1]: *** [cmTC_b0609] Error 1
+make[1]: Leaving directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b0609/fast' failed
+make: *** [cmTC_b0609/fast] Error 2
 
-File /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp
+Change Dir: /home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99182/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99182.dir/build.make CMakeFiles/cmTC_99182.dir/build
-make[1]: Entering directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99182.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_99182.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_99182
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99182.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_99182.dir/CheckFunctionExists.c.o  -o cmTC_99182 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_c9914/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9914.dir/build.make CMakeFiles/cmTC_c9914.dir/build
+make[1]: Entering directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9914.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c9914.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9914
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9914.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c9914.dir/CheckFunctionExists.c.o  -o cmTC_c9914 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_99182.dir/build.make:97: recipe for target 'cmTC_99182' failed
-make[1]: *** [cmTC_99182] Error 1
-make[1]: Leaving directory '/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_99182/fast' failed
-make: *** [cmTC_99182/fast] Error 2
+CMakeFiles/cmTC_c9914.dir/build.make:97: recipe for target 'cmTC_c9914' failed
+make[1]: *** [cmTC_c9914] Error 1
+make[1]: Leaving directory '/home/mohammad/Documents/CMU/RED/catkin_ws/build/roscpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c9914/fast' failed
+make: *** [cmTC_c9914/fast] Error 2
 
 

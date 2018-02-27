@@ -1,0 +1,8 @@
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/rqt_mypkg
+
+Name: rqt_mypkg
+Description: Description of rqt_mypkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/rqt_mypkg/lib 
+Requires: 

@@ -1,1 +1,0 @@
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_example_cpp/lib/python2.7/dist-packages/rqt_example_cpp/__init__.py

@@ -7,9 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/pcl_processor"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/mohammad/Documents/CMU/RED/catkin_ws/build/pcl_processor"
+export PYTHONPATH="/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud:$ROS_PACKAGE_PATH"

@@ -1,0 +1,19 @@
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:24:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:84:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool pointcloud_process::is_obstacle(pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’ cannot be overloaded
+     bool is_obstacle(pcl::PointCloud<PointT>::Ptr obstacle);
+[01;32m[K          ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:83:10:[m[K [01;31m[Kerror: [m[Kwith ‘[01m[Kbool pointcloud_process::is_obstacle(pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+     bool is_obstacle(pcl::PointCloud<PointT>::Ptr obstacle);
+[01;32m[K          ^[m[K
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:5:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:84:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool pointcloud_process::is_obstacle(pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’ cannot be overloaded
+     bool is_obstacle(pcl::PointCloud<PointT>::Ptr obstacle);
+[01;32m[K          ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:83:10:[m[K [01;31m[Kerror: [m[Kwith ‘[01m[Kbool pointcloud_process::is_obstacle(pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+     bool is_obstacle(pcl::PointCloud<PointT>::Ptr obstacle);
+[01;32m[K          ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/pointcloud_process.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

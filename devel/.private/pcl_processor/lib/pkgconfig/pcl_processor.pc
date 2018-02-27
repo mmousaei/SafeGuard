@@ -1,8 +1,8 @@
-prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor
 
 Name: pcl_processor
 Description: Description of pcl_processor
 Version: 0.0.0
-Cflags: 
-Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/lib 
+Cflags: -I/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/include
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib 
 Requires: 

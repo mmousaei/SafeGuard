@@ -1,8 +1,0 @@
-prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install
-
-Name: PCL_CylinderSegmentation
-Description: Description of PCL_CylinderSegmentation
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install/lib 
-Requires: 

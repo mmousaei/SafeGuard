@@ -1,0 +1,11 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:160:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pointcloud_process[m[K’ has no member named ‘[01m[Kestimate_cylinder_center[m[K’
+     center = my_process.estimate_cylinder_center(cloud_cylinder);
+[01;32m[K                         ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:199:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pointcloud_process[m[K’ has no member named ‘[01m[Kestimate_cylinder_center[m[K’
+             center = my_process.estimate_cylinder_center(cloud_cylinder);
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

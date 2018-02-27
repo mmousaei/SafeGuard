@@ -1,0 +1,10 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:278:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_process[m[K’ was not declared in this scope
+     output = my_process.convert_pcl_to_msgs(cloud_cylinder);
+[01;32m[K              ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:278:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_cylinder[m[K’ was not declared in this scope
+     output = my_process.convert_pcl_to_msgs(cloud_cylinder);
+[01;32m[K                                             ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

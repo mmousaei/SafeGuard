@@ -1,0 +1,12 @@
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:94 (message):
+  add_message_files() directory not found:
+  /home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/msg
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:22 (add_message_files)
+
+
+make: *** [cmake_check_build_system] Error 1

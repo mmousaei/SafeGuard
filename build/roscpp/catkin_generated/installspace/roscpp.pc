@@ -1,8 +1,8 @@
-prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/install
 
 Name: roscpp
 Description: Description of roscpp
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/install/lib 
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/install/lib 
 Requires: 

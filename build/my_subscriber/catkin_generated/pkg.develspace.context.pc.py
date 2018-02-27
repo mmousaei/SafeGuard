@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "my_subscriber"
-PROJECT_SPACE_DIR = "/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber"
+PROJECT_SPACE_DIR = "/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber"
 PROJECT_VERSION = "0.0.0"

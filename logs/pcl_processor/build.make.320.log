@@ -1,0 +1,22 @@
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target safeguard_main[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  8%] [32mBuilding CXX object CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o[0m
+[  8%] Built target std_msgs_generate_messages_lisp
+[  8%] Built target _pcl_processor_generate_messages_check_deps_safeguard
+[  8%] Built target sensor_msgs_generate_messages_lisp
+[  8%] Built target std_msgs_generate_messages_eus
+[  8%] Built target sensor_msgs_generate_messages_eus
+[  8%] Built target std_msgs_generate_messages_cpp
+[  8%] Built target sensor_msgs_generate_messages_cpp
+[ 25%] Built target pcl_subscriber
+[ 41%] Built target pcl_processor_generate_messages_py
+[ 50%] Built target pcl_processor_generate_messages_nodejs
+[ 66%] Built target pcl_processor_generate_messages_eus
+[ 75%] Built target pcl_processor_generate_messages_lisp
+[ 83%] Built target pcl_processor_generate_messages_cpp
+[ 83%] Built target pcl_processor_generate_messages
+[ 91%] [32m[1mLinking CXX executable /home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/pcl_processor/lib/pcl_processor/safeguard_main[0m
+[100%] Built target safeguard_main

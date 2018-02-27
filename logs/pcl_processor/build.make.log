@@ -1,5 +1,19 @@
-[35m[1mScanning dependencies of target cylider_seg[0m
-[ 50%] Built target pcl_subscriber
-[ 75%] [32mBuilding CXX object CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/pcl_processor/lib/pcl_processor/cylider_seg[0m
-[100%] Built target cylider_seg
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target safeguard_main
+[ 25%] Built target sensor_msgs_generate_messages_lisp
+[ 25%] Built target sensor_msgs_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 25%] Built target _pcl_processor_generate_messages_check_deps_safeguard
+[ 25%] Built target sensor_msgs_generate_messages_cpp
+[ 41%] Built target pcl_subscriber
+[ 50%] Built target pcl_processor_generate_messages_lisp
+[ 66%] Built target pcl_processor_generate_messages_py
+[ 83%] Built target pcl_processor_generate_messages_eus
+[ 91%] Built target pcl_processor_generate_messages_cpp
+[100%] Built target pcl_processor_generate_messages_nodejs
+[100%] Built target pcl_processor_generate_messages

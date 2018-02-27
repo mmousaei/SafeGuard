@@ -1,0 +1,7 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:197:98:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kpointcloud_process::end_condition[m[K’ and ‘[01m[Kconst char [19][m[K’)
+     std::cerr << "There decision is: "<< decision_distance.decision == pointcloud_process::close << " the distance is: " << decision_distance.distance <<std::endl;
+[01;32m[K                                                                                                  ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

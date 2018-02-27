@@ -1,0 +1,17 @@
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:24:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:86:117:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     double scan_for_eop(pcl::PointCloud<PointT>::Ptr cylinder, double max_distance, pointcloud_process::line_3d line)
+[01;32m[K                                                                                                                     ^[m[K
+In file included from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:5:0[m[K:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.h:86:117:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     double scan_for_eop(pcl::PointCloud<PointT>::Ptr cylinder, double max_distance, pointcloud_process::line_3d line)
+[01;32m[K                                                                                                                     ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:[m[K In member function ‘[01m[Kdouble pointcloud_process::scan_for_eop(pcl::PointCloud<pcl::PointXYZ>::Ptr, double, pointcloud_process::line_3d)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:397:16:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpointcloud_process::point_2d[m[K’ to ‘[01m[Kdouble[m[K’ in assignment
+         center = estimate_cylinder_center_at_Z(line, max_thresh);
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/pointcloud_process.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

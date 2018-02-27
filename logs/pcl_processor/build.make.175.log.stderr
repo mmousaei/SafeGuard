@@ -1,0 +1,7 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:[m[K In member function ‘[01m[Kint pointcloud_process::open_closed_pipe_decision_maker(long unsigned int, long unsigned int)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/pointcloud_process.cpp:185:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_size1[m[K’ was not declared in this scope
+     std::cerr<<"The ratio is : " << (double) inlier_size/cloud_size1 << std::endl;
+[01;32m[K                                                          ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/pointcloud_process.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,6 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:25:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+ #include ""
+[01;32m[K          ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

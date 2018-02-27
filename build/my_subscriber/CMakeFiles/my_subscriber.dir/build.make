@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber
+CMAKE_SOURCE_DIR = /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber
+CMAKE_BINARY_DIR = /home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_subscriber.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/my_subscriber.dir/progress.make
 include CMakeFiles/my_subscriber.dir/flags.make
 
 CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o: CMakeFiles/my_subscriber.dir/flags.make
-CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o -c /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp
+CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o: /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/my_subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o -c /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/my_subscriber.cpp
 
 CMakeFiles/my_subscriber.dir/my_subscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_subscriber.dir/my_subscriber.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp > CMakeFiles/my_subscriber.dir/my_subscriber.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/my_subscriber.cpp > CMakeFiles/my_subscriber.dir/my_subscriber.cpp.i
 
 CMakeFiles/my_subscriber.dir/my_subscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_subscriber.dir/my_subscriber.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp -o CMakeFiles/my_subscriber.dir/my_subscriber.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/my_subscriber.cpp -o CMakeFiles/my_subscriber.dir/my_subscriber.cpp.s
 
 CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o.requires:
 
@@ -88,93 +88,93 @@ my_subscriber_OBJECTS = \
 # External object files for target my_subscriber
 my_subscriber_EXTERNAL_OBJECTS =
 
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/build.make
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/libPocoFoundation.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroscpp.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroslib.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librospack.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librostime.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_superres3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_face3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_img_hash3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_reg3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_tracking3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_shape3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_photo3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_viz3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_video3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_plot3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_text3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_dnn3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_flann3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ml3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber"
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/my_subscriber.cpp.o
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/build.make
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libimage_transport.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libclass_loader.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/libPocoFoundation.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroscpp.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroslib.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librospack.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/librostime.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_superres3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_face3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_img_hash3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_reg3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_tracking3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_shape3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_photo3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_viz3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_video3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_plot3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_text3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_dnn3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_flann3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_ml3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
+/home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber: CMakeFiles/my_subscriber.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_subscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/my_subscriber.dir/build: /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber
+CMakeFiles/my_subscriber.dir/build: /home/mohammad/Documents/CMU/RED/catkin_ws/devel/.private/my_subscriber/lib/my_subscriber/my_subscriber
 
 .PHONY : CMakeFiles/my_subscriber.dir/build
 
@@ -187,6 +187,6 @@ CMakeFiles/my_subscriber.dir/clean:
 .PHONY : CMakeFiles/my_subscriber.dir/clean
 
 CMakeFiles/my_subscriber.dir/depend:
-	cd /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber /home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/build/my_subscriber/CMakeFiles/my_subscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber /home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber /home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber /home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber /home/mohammad/Documents/CMU/RED/catkin_ws/build/my_subscriber/CMakeFiles/my_subscriber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_subscriber.dir/depend
 

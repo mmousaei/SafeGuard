@@ -1,0 +1,10 @@
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+[31m[1mCMake Error[0m at /home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/CMakeLists.txt:217 (target_link_libraries):
+  Cannot specify link libraries for target "cylider_seg" which is not built
+  by this project.
+
+
+make: *** [cmake_check_build_system] Error 1

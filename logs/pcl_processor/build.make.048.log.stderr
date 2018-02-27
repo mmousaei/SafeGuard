@@ -1,27 +1,7 @@
-[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
-[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:144:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoROSMsg(sensor_msgs::PointCloud2&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’
-   pcl::toROSMsg(output, cloud_cylinder);
-[01;32m[K                                       ^[m[K
-In file included from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4:0[m[K:
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:487:8:[m[K [01;36m[Knote: [m[Kcandidate: void pcl::toROSMsg(const PointCloud2&, sensor_msgs::Image&)
-   void toROSMsg(const sensor_msgs::PointCloud2 &cloud, sensor_msgs::Image &image)
-[01;32m[K        ^[m[K
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:487:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr {aka boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >}[m[K’ to ‘[01m[Ksensor_msgs::Image& {aka sensor_msgs::Image_<std::allocator<void> >&}[m[K’
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:507:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> void pcl::toROSMsg(const pcl::PointCloud<PointT>&, sensor_msgs::Image&)
-   toROSMsg (const pcl::PointCloud<T> &cloud, sensor_msgs::Image& msg)
-[01;32m[K   ^[m[K
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:507:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:144:39:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::PointCloud2 {aka sensor_msgs::PointCloud2_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
-   pcl::toROSMsg(output, cloud_cylinder);
-[01;32m[K                                       ^[m[K
-In file included from [01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:4:0[m[K:
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:539:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> void pcl::toROSMsg(const pcl::PointCloud<PointT>&, sensor_msgs::PointCloud2&)
-   void toROSMsg(const pcl::PointCloud<T> &pcl_cloud, sensor_msgs::PointCloud2 &cloud)
-[01;32m[K        ^[m[K
-[01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:539:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:144:39:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::PointCloud2 {aka sensor_msgs::PointCloud2_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
-   pcl::toROSMsg(output, cloud_cylinder);
-[01;32m[K                                       ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:142:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+    theta = abs(acos(cos_theta))*180.0)/M_PI;
+[01;32m[K                                      ^[m[K
 make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
 make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
 make: *** [all] Error 2

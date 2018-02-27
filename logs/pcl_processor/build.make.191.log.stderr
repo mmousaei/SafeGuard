@@ -1,0 +1,82 @@
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:66:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::cerr << "PointCloud has: " << cloud->points.size () << " data points." << std::end
+[01;32m[K                                                                                    ^[m[K
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:66:84:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/range/functions.hpp:19:0[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:1[m[K:
+[01m[K/usr/include/boost/range/end.hpp:100:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::end[m[K’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type end( const T& r )
+[01;32m[K                                                             ^[m[K
+In file included from [01m[K/usr/include/boost/mpl/list/aux_/begin_end.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list0.hpp:27[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list10.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list20.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::end[m[K’
+ template< typename Sequence > struct end;
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/usr/include/boost/range/functions.hpp:19:0[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:1[m[K:
+[01m[K/usr/include/boost/range/end.hpp:100:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::end[m[K’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type end( const T& r )
+[01;32m[K                                                             ^[m[K
+In file included from [01m[K/usr/include/pcl-1.7/pcl/conversions.h:56:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:44[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:4[m[K:
+[01m[K/usr/include/boost/foreach.hpp:729:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::end[m[K’
+ end(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/boost/filesystem.hpp:17:0[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/boost.h:52[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/file_io.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:4[m[K:
+[01m[K/usr/include/boost/filesystem/operations.hpp:1180:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::filesystem::end[m[K’
+   recursive_directory_iterator end(const recursive_directory_iterator&)
+[01;32m[K                                ^[m[K
+In file included from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp:44[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/centroid.h:954[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/transforms.h:44[m[K,
+                 from [01m[K/opt/ros/kinetic/include/pcl_ros/transforms.h:41[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:8[m[K:
+[01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::end[m[K’
+     end(Sequence const& seq)
+[01;32m[K     ^[m[K
+In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp:44[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/centroid.h:954[m[K,
+                 from [01m[K/usr/include/pcl-1.7/pcl/common/transforms.h:44[m[K,
+                 from [01m[K/opt/ros/kinetic/include/pcl_ros/transforms.h:41[m[K,
+                 from [01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/safeguard_main.cpp:8[m[K:
+[01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::end[m[K’
+         struct end;
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/safeguard_main.dir/safeguard_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/safeguard_main.dir/all] Error 2
+make: *** [all] Error 2

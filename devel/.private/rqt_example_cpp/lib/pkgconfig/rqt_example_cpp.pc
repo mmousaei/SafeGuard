@@ -1,8 +1,0 @@
-prefix=/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_example_cpp
-
-Name: rqt_example_cpp
-Description: Description of rqt_example_cpp
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/devel/.private/rqt_example_cpp/lib -lrqt_example_cpp
-Requires: roscpp rqt_gui_cpp std_msgs

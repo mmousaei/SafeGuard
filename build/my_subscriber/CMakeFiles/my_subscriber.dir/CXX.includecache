@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/my_subscriber.cpp
+/home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/my_subscriber.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -18,9 +18,9 @@ cv_bridge/cv_bridge.h
 stdio.h
 -
 opencv2/features2d.hpp
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/opencv2/features2d.hpp
+/home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/opencv2/features2d.hpp
 opencv2/xfeatures2d.hpp
-/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/subscriber/opencv2/xfeatures2d.hpp
+/home/mohammad/Documents/CMU/RED/catkin_ws/src/subscriber/opencv2/xfeatures2d.hpp
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

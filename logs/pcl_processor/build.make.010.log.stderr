@@ -1,6 +1,7 @@
-[01m[K/home/mohammadreza/Documents/CMU-Project/RED/catkin_ws/src/pointcloud/pcl_subscriber.cpp:11:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kcloud_cb[m[K’ with no type [-fpermissive]
- cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
-[01;32m[K                                                        ^[m[K
-make[2]: *** [CMakeFiles/pcl_subscriber.dir/pcl_subscriber.cpp.o] Error 1
-make[1]: *** [CMakeFiles/pcl_subscriber.dir/all] Error 2
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:[m[K In function ‘[01m[Kvoid cloud_cb(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/mohammad/Documents/CMU/RED/catkin_ws/src/pointcloud/cylider_seg.cpp:134:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl::ModelCoefficients::Ptr {aka class boost::shared_ptr<pcl::ModelCoefficients>}[m[K’ has no member named ‘[01m[Kat[m[K’
+   std::cerr << "Cylinder coefficients: " << *coefficients_cylinder.at(2) << std::endl;
+[01;32m[K                                                                    ^[m[K
+make[2]: *** [CMakeFiles/cylider_seg.dir/cylider_seg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cylider_seg.dir/all] Error 2
 make: *** [all] Error 2

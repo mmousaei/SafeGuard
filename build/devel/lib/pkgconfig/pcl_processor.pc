@@ -1,0 +1,8 @@
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/build/devel
+
+Name: pcl_processor
+Description: Description of pcl_processor
+Version: 0.0.0
+Cflags: -I/home/mohammad/Documents/CMU/RED/catkin_ws/build/devel/include
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/build/devel/lib 
+Requires: 
