@@ -1,0 +1,8 @@
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/src/cmake-build-debug/devel
+
+Name: pcl_processor
+Description: Description of pcl_processor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/src/cmake-build-debug/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/mohammad/Documents/CMU/RED/catkin_ws/src/cmake-build-debug/devel
+
+Name: roscpp
+Description: Description of roscpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammad/Documents/CMU/RED/catkin_ws/src/cmake-build-debug/devel/lib 
+Requires: 

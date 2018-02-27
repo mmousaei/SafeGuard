@@ -1,0 +1,6 @@
+set(rqt_safeguard_SETUP_PY_VERSION "0.4.8")
+set(rqt_safeguard_SETUP_PY_SCRIPTS "scripts/rqt_plot")
+set(rqt_safeguard_SETUP_PY_PACKAGES "rqt_safeguard")
+set(rqt_safeguard_SETUP_PY_PACKAGE_DIRS "src/rqt_safeguard")
+set(rqt_safeguard_SETUP_PY_MODULES "")
+set(rqt_safeguard_SETUP_PY_MODULE_DIRS "")
